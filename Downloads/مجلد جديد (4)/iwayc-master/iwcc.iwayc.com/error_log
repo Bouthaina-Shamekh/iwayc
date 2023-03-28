@@ -1,0 +1,68 @@
+[21-Jul-2018 17:27:14 America/Chicago] PHP Parse error:  syntax error, unexpected '?' in /home3/idealway/iwt.iwayc.com/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 242
+[18-Aug-2018 12:24:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Whoops\Handler\PrettyPageHandler' not found in /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php:18
+Stack trace:
+#0 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(348): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#1 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(333): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#2 /home3/idealway/vendor/laravel/framework/src/Illuminate/Support/helpers.php(1041): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}(Object(Whoops\Run))
+#3 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(338): tap(Object(Whoops\Run), Object(Closure))
+#4 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops(Object(Symfony\Component\Debu in /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php on line 18
+[18-Aug-2018 12:24:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Whoops\Handler\PrettyPageHandler' not found in /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php:18
+Stack trace:
+#0 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(348): Illuminate\Foundation\Exceptions\WhoopsHandler->forDebug()
+#1 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(333): Illuminate\Foundation\Exceptions\Handler->whoopsHandler()
+#2 /home3/idealway/vendor/laravel/framework/src/Illuminate/Support/helpers.php(1041): Illuminate\Foundation\Exceptions\Handler->Illuminate\Foundation\Exceptions\{closure}(Object(Whoops\Run))
+#3 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(338): tap(Object(Whoops\Run), Object(Closure))
+#4 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithWhoops(Object(Symfony\Component\Debu in /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/WhoopsHandler.php on line 18
+[18-Aug-2018 12:50:13 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Auth\UserProvider' not found in /home3/idealway/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php on line 11
+[18-Aug-2018 12:51:20 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\View\Factory' not found in /home3/idealway/vendor/laravel/framework/src/Illuminate/View/Factory.php on line 14
+[09-Sep-2018 11:10:24 America/Chicago] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home3/idealway/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:218
+Stack trace:
+#0 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(396): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(373): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(288): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home3/idealway/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(187): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home3/idealway/app/Exceptions/Handler.php in /home3/idealway/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 218
+[26-Sep-2018 00:25:44 Asia/Amman] PHP Warning:  Unterminated comment starting line 701 in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 701
+[03-Oct-2018 19:59:09 Asia/Amman] PHP Warning:  Unterminated comment starting line 464 in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 464
+[04-Oct-2018 13:22:54 Asia/Amman] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 1194
+[13-Oct-2018 13:22:06 Asia/Amman] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 61
+[13-Oct-2018 13:22:30 Asia/Amman] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 61
+[13-Oct-2018 15:51:12 Asia/Amman] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 61
+[13-Oct-2018 15:51:17 Asia/Amman] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 61
+[14-Oct-2018 13:32:18 Asia/Amman] PHP Fatal error:  Cannot use [] for reading in /home3/idealway/storage/framework/views/030f75a351d201e5ccdbdf93bbe815d08afdfe48.php on line 382
+[14-Oct-2018 13:32:42 Asia/Amman] PHP Fatal error:  Cannot use [] for reading in /home3/idealway/storage/framework/views/030f75a351d201e5ccdbdf93bbe815d08afdfe48.php on line 382
+[22-Oct-2018 18:06:13 Asia/Amman] PHP Warning:  Unterminated comment starting line 1481 in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 1481
+[23-Oct-2018 20:36:49 Asia/Amman] PHP Warning:  Unterminated comment starting line 2390 in /home3/idealway/app/Http/Controllers/ActiveMethodController.php on line 2390
+[30-Nov-2018 20:00:45 Asia/Amman] PHP Fatal error:  Class 'Yajra\DataTables\Services\DataTable' not found in /home3/idealway/app/DataTables/AbsenceDataTable.php on line 9
+[30-Nov-2018 20:02:19 Asia/Amman] PHP Fatal error:  Class 'Yajra\DataTables\Services\DataTable' not found in /home3/idealway/app/DataTables/AbsenceDataTable.php on line 9
+[21-Feb-2019 02:25:44 Asia/Amman] PHP Fatal error:  Redefinition of parameter $courseId in /home3/idealway/iway_system/app/Http/Controllers/CourseController.php on line 57
+[23-Feb-2019 21:24:21 Asia/Amman] PHP Fatal error:  Cannot use lexical variable $rewards as a parameter name in /home3/idealway/iway_system/app/Http/Controllers/ActiveMethodController.php on line 2133
+[15-Mar-2019 22:16:21 Asia/Amman] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/idealway/iway_system/storage/framework/views/cdcf108a8d69d06f0b915dce96222eea31f44ff1.php on line 182
+[24-Mar-2019 08:07:54 Asia/Amman] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home3/idealway/iway_system/app/Http/Controllers/CampaignStudentController.php:92
+Stack trace:
+#0 /home3/idealway/iway_system/app/Http/Controllers/CampaignStudentController.php(92): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home3/idealway...', 92, Array)
+#1 /home3/idealway/iway_system/app/Http/Controllers/CampaignStudentController.php(23): App\Http\Controllers\CampaignStudentController->getAll('7')
+#2 [internal function]: App\Http\Controllers\CampaignStudentController->getIndex('7')
+#3 /home3/idealway/iway_system/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home3/idealway/iway_system/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('getIndex', Array)
+#5 /home3/idealway/iway_system/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispat in /home3/idealway/iway_system/app/Http/Controllers/CampaignStudentController.php on line 92
+[04-Apr-2019 10:19:09 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EnglishController.php on line 68
+[06-Apr-2019 16:10:50 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:11:01 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:11:43 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:12:05 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:12:26 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:12:36 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[06-Apr-2019 16:12:56 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[07-Apr-2019 01:23:41 Asia/Amman] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/idealway/iway_system/app/Http/Controllers/EmployeeController.php on line 112
+[10-Dec-2022 01:19:50 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/idealway/iway_system/iwcc.iwayc.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/idealway/iway_system/iwcc.iwayc.com/index.php on line 24
+[10-Dec-2022 01:39:09 America/Chicago] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home3/idealway/iway_system/vendor/paragonie/sodium_compat/lib/constants.php:18
+Stack trace:
+#0 /home3/idealway/iway_system/vendor/paragonie/sodium_compat/lib/sodium_compat.php(834): require_once()
+#1 /home3/idealway/iway_system/vendor/paragonie/sodium_compat/autoload.php(45): require_once('/home3/idealway...')
+#2 /home3/idealway/iway_system/vendor/composer/autoload_real.php(66): require('/home3/idealway...')
+#3 /home3/idealway/iway_system/vendor/composer/autoload_real.php(56): composerRequire14e50f0c6fd424d0e6f66b58a5752403('3109cb1a231dcd0...', '/home3/idealway...')
+#4 /home3/idealway/iway_system/vendor/autoload.php(7): ComposerAutoloaderInit14e50f0c6fd424d0e6f66b58a5752403::getLoader()
+#5 /home3/idealway/iway_system/iwcc.iwayc.com/index.php(24): require('/home3/idealway...')
+#6 {main}
+  thrown in /home3/idealway/iway_system/vendor/paragonie/sodium_compat/lib/constants.php on line 18

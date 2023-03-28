@@ -1,0 +1,94 @@
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left !important;
+}
+.btn-group {
+    float: right;
+}
+.form-horizontal .control-label{
+    text-align:right;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+//border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.top-37{
+    right: 22%;
+    position: absolute;
+    top: 6.5%;
+    z-index: 999999;
+}
+th{
+    font-weight: bold !important;
+}
+h3{
+    font-size: 30px !important;
+}
+h3.panel-title {
+    font-size: 20px !important;
+}
+input[type=checkbox]
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 50%;
+    transform: translateX(50%);
+    margin-top: 0px;
+}
+input[type=radio]
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 50%;
+    transform: translateX(50%);
+    margin-top: 0px;
+}
+.m-b-15{
+    margin-bottom: 15px !important;
+}
+.m-b-0{
+    margin-bottom: 0 !important;
+}
+.b-g-c-gray{
+    background-color: #e0e0e0 !important;
+}
+.money-year{
+    background-color: blue !important;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.pos{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.pos2{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bolder;
+}
+#left-navigation .user-heading {
+    color: #fff;
+    text-align: center;
+}
+#left-navigation.active .user-heading {
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+.dataTables_wrapper .dataTables_processing{
+    margin-left: 0 !important;
+    margin-right: -50% !important;
+    left: 0 !important;
+    right: 50% !important;
+}
